@@ -1,0 +1,19 @@
+# Игнорим всё по умолчанию
+*
+
+# Разрешаем сам .gitignore
+!.gitignore
+
+# Разрешаем моды/шейдеры/ресурспаки и их содержимое
+!mods/
+!mods/**
+
+!resourcepacks/
+!resourcepacks/**
+
+!shaderpacks/
+!shaderpacks/**
+
+# Конфиги (очень рекомендую)
+!config/
+!config/**
